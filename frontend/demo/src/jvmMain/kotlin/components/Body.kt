@@ -1,99 +1,31 @@
 package components
 
-import androidx.compose.desktop.ui.tooling.preview.Preview
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.material.Checkbox
-import androidx.compose.material.Text
-import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.window.AwtWindow
-import components.Body.Companion.bodyState
-import components.Body.Companion.files
-import java.awt.FileDialog
-import java.awt.Frame
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.MutableState
+import androidx.compose.runtime.mutableStateOf
+import model.ModDescription
+import model.ModImport
 
-@Composable
-@Preview
-fun bodyContent() {
-    when(bodyState.value) {
-        BodyState.INIT -> bodyInit()
-        BodyState.SELECT_FOLDER -> bodySelectFolder()
-        BodyState.SHOW_MODS -> bodySelectMods()
+class Body private constructor(){
+    val content: MutableState<IBodyContent>  =  mutableStateOf( BodyContentInit.singleton)
+    val import = mutableStateOf(ModImport(ModDescription.empty(), listOf()))
+
+
+    @Composable
+    fun render(){
+        content.value.renderer().invoke()
     }
 
-}
-
-@Composable
-@Preview
-fun bodyInit() {
-    Text("Hello World")
-}
-
-@Composable
-@Preview
-fun bodySelectFolder() {
-    FileDialog(
-        onCloseRequest = {
-            bodyState.value = BodyState.SHOW_MODS
-            files.value = it
-        }
-    )
-}
-
-@Composable
-private fun FileDialog(
-    parent: Frame? = null,
-    onCloseRequest: (result: List<String>) -> Unit
-) = AwtWindow(
-    create = {
-        object : FileDialog(parent, "Choose files", LOAD) {
-            override fun setVisible(value: Boolean) {
-                super.setVisible(value)
-                if (value) {
-                    when(isMultipleMode){
-                        true -> onCloseRequest(files.map { file -> file.name })
-                        false -> onCloseRequest(listOf(file))
-                    }
-                }
-            }
-        }.also { it.isMultipleMode = true }
-    },
-    dispose = FileDialog::dispose
-)
-
-@Composable
-@Preview
-fun bodySelectMods() {
-    Column {
-        files.value.forEach{
-            selectableElement(it)
-        }
+    fun onLoadFromFiles(){
+        this.content.value = BodyContentFileDialog.singleton
     }
-}
-
-@Composable
-@Preview
-fun selectableElement(text: String){
-    var checked by remember { mutableStateOf(false) }
-    Row(verticalAlignment = Alignment.CenterVertically) {
-        Checkbox(checked, onCheckedChange = {value -> checked = value})
-        Text(text)
+    fun onFilesLoaded(import: ModImport){
+        this.content.value = BodyContentSelectFiles.singleton
+        this.import.value = import
     }
-}
 
-
-class Body{
     companion object{
-        var bodyState = mutableStateOf(BodyState.INIT)
-        var files = mutableStateOf(listOf<String>())
+        val singleton = Body()
     }
 }
 
-enum class BodyState(
-    val value: String
-){
-    INIT("Init"),
-    SELECT_FOLDER("Select folder"),
-    SHOW_MODS("Show mods")
-}

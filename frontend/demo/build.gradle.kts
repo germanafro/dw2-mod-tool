@@ -24,6 +24,8 @@ kotlin {
         val jvmMain by getting {
             dependencies {
                 implementation(compose.desktop.currentOs)
+                implementation("com.fasterxml.jackson.core:jackson-databind:2.14.1")
+                implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
             }
         }
         val jvmTest by getting
