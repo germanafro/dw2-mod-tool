@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b472cffb-d13b-4b22-8e2e-90e1243ef25a" name="Changes" comment="frontend refactoring">
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo_jvm_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.idea/artifacts/demo_jvm_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/jvmMain/kotlin/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/jvmMain/kotlin/Utils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/jvmMain/kotlin/components/Body.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/jvmMain/kotlin/components/BodyContentFileDialog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/jvmMain/kotlin/components/BodyContentInit.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/jvmMain/kotlin/components/BodyContentSelectFiles.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/jvmMain/kotlin/components/BottomAppBar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/jvmMain/kotlin/components/DropdownMenu.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/jvmMain/kotlin/components/IBodyContent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/jvmMain/kotlin/components/Root.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/jvmMain/kotlin/components/Scaffold.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/jvmMain/kotlin/components/TopAppBar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/jvmMain/kotlin/model/FileImport.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/jvmMain/kotlin/model/ModImport.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/jvmMain/kotlin/model/Serde.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/inc/common/lib/mod/ModClientEndpoints.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/org/inc/common/lib/mod/ModDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.gradle/7.4.2/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.gradle/7.4.2/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.gradle/7.4.2/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.gradle/7.4.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.gradle/7.4.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.gradle/7.4.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.gradle/7.4.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/kotlin/org/inc/common/lib/mod/ModClientEndpoints.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/kotlin/org/inc/common/lib/mod/ModDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/.idea/artifacts/demo_jvm_1_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/src/jvmMain/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/src/jvmMain/kotlin/Utils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/src/jvmMain/kotlin/components/Body.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/src/jvmMain/kotlin/components/BodyContentFileDialog.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/src/jvmMain/kotlin/components/BodyContentInit.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/src/jvmMain/kotlin/components/BodyContentSelectFiles.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/src/jvmMain/kotlin/components/BottomAppBar.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/src/jvmMain/kotlin/components/DropdownMenu.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/src/jvmMain/kotlin/components/IBodyContent.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/src/jvmMain/kotlin/components/Root.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/src/jvmMain/kotlin/components/Scaffold.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/src/jvmMain/kotlin/components/TopAppBar.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/src/jvmMain/kotlin/model/FileImport.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/src/jvmMain/kotlin/model/ModImport.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/demo/src/jvmMain/kotlin/model/Serde.kt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/backend">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/common">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/frontend/demo">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/frontend/demo">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/backend">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dw2-mongodb-importer-exporter-tool" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dw2-mongodb-importer-exporter-tool" type="f1a62948:ProjectNode" />
+                <item name="backend" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5789b84c-86e2-4d9e-8ffa-9590b8058e51" />
+        <option name="url" value="https://github.com/germanafro/dw2-mod-tool.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LhdzbWlGo3JALhNsX0wTQU1EVO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/Users/andre/IdeaProjects/dw2-mod-tool/settings.gradle.kts",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\IdeaProjects\dw2-mod-tool" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.demo [run]">
+    <configuration name="demo [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/frontend/demo" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="dw2-mod-tool" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="dw2-mod-tool" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build.gradle.kts" type="KotlinStandaloneScriptRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="dw2-mod-tool" />
+      <option name="filePath" value="$PROJECT_DIR$/frontend/demo/build.gradle.kts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.demo [run]" />
+        <item itemvalue="Kotlin script (Beta).build.gradle.kts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b472cffb-d13b-4b22-8e2e-90e1243ef25a" name="Changes" comment="" />
+      <created>1676327514004</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676327514004</updated>
+    </task>
+    <task id="LOCAL-00001" summary="frontend refactoring">
+      <created>1676336197646</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676336197646</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="frontend refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend refactoring" />
+  </component>
+</project>

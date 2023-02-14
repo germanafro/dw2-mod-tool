@@ -1,19 +1,21 @@
 import org.jetbrains.compose.compose
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 
+repositories {
+    google()
+    gradlePluginPortal()
+    mavenCentral()
+    maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
+}
+
 plugins {
     kotlin("multiplatform")
     id("org.jetbrains.compose")
 }
 
-group = "com.example"
-version = "1.0-SNAPSHOT"
 
-repositories {
-    google()
-    mavenCentral()
-    maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
-}
+group = "org.inc"
+version = "1.0-SNAPSHOT"
 
 kotlin {
     jvm {
@@ -37,7 +39,7 @@ compose.desktop {
         mainClass = "MainKt"
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "demo"
+            packageName = "app"
             packageVersion = "1.0.0"
         }
     }
